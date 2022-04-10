@@ -1,0 +1,17 @@
+stemming algorithm
+
+INPUT: File     OUTPUT: STEMMING_TOKKENS
+
+STEP-1:
+    convert the FILE Into sequence of TOKENS
+    return 'TOKENS'
+STEP-2:
+    check the TOKENS sequence if it has STOP_WORD
+    If TOKENS has STOP_WORD:
+        remove STOP_WORD from TOKENS
+        return 'TOKENS_WITH_OUT_STOP_WORD'
+    else:
+        don't remove
+STEP-3:
+    stemming the 'TOKENS_WITH_OUT_STOP_WORD'
+    return 'STEMMING_TOKKENS'
